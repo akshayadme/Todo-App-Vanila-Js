@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #fff0f3;
+}
+
+/* main style */
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-color: #fff0f3;
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* heading style */
+.wrapper .heading{
+    font-size: 4rem;
+    margin-bottom: 10px;
+    color: rgb(135, 135, 135);
+    
+}
+
+/* center div */
+.wrapper .inner-comp{
+    background-color: #fff;
+    width:60%;
+    border: none;
+    z-index: 2;
+    border-radius: 10px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+
+}
+
+.input-sec{
+    background-color: #fff !important;
+}
+
+/* text box style */
+.input-sec input{
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    transition: .5s;
+    background-color: #fff !important;
+}
+
+.input-sec input[type="text"]{
+    width: 300px;
+    height: 50px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 25px 0 0 25px;
+    padding :0 20px; 
+}
+
+/* input button style */
+.input-sec button{
+    position: relative;
+    left: -5px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 0px 25px 25px 0px;
+    padding :0 25px; 
+    background-color: #c77dff;
+    cursor: pointer;
+    transition: .5s;
+    color: #fff;
+}
+
+.input-sec button:hover{
+    background-color: #9d4edd;
+}
+
+.input-sec button .icon{
+    font-size: 20px;
+    color: #fff;
+}
+
+
+/* list item style */
+.list-items{
+    margin-top: 20px;
+    width: 90%;
+}
+
+.list-items ul{
+    list-style: none;
+    transition: .5s;
+    background-color: #fff !important;
+}
+
+
+/* list item style */
+.list-items ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8edeb;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: .5s;
+}
+
+.list-items #count{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ccc;
+    background: #fff;
+}
+
+/* todo text style */
+.list-items ul li div .todo-text{
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f8edeb;
+    outline: none;
+}
+
+.list-items ul li div input[type= "checkbox"]{
+
+    position: relative;
+    top: 2px;
+    right: 5px;
+    width: 1.5rem;
+    height: 1rem;
+    display: inline-block;
+    border: .1rem solid #ccc;
+    border-radius: 5px; 
+    color: transparent;
+}
+
+.list-items ul li div input[type= "checkbox"]:checked{
+    background-color: red;
+}
+
+
+/* list button style */
+
+.list-items ul li .edit-icon{
+    background-color: #f8961e;
+} 
+.list-items ul li .edit-icon:hover{
+    background-color: #ff7900;
+} 
+.list-items ul li .save-icon{
+    background-color: #16db65;
+} 
+.list-items ul li .save-icon:hover{
+    background-color: #058c42;
+} 
+
+.list-items ul li button:hover{
+    background-color: #d90429;
+}
+
+/* common list icons style */
+.icon{
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding :0 20px; 
+    background-color: #c77dff;
+    cursor: pointer;
+    transition: .5s;
+    background-color: #ff0a54;
+    color :#fff;
+    font-weight: bold;
+    transition: .5s;
+}
